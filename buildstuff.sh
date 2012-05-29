@@ -1,10 +1,10 @@
 #!/bin/bash
 FAILED=0
-cd ./FridgeMagnet
+cd ./TomatoMonitor
 ant clean
 ant debug
 if [ "$?" = 1 ]; then
-    echo "FridgeMagnet build failed!"
+    echo "TomatoMonitor build failed!"
     FAILED=1
 fi
 cd ..
