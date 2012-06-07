@@ -54,7 +54,7 @@ public class ActivityMain extends Activity
 
                     InputStream in = (InputStream) connection.getInputStream();
 
-                    BufferedReader ina =
+                    BufferedReader ina   =
                             new BufferedReader (new InputStreamReader (in));
                     String line;
                     while ((line = ina.readLine()) != null) {
