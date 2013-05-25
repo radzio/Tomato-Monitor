@@ -9,18 +9,18 @@
 <version>7</version>
 </parent>
 
-<groupId>net.droidlabs</groupId>
+<groupId>net.droidlabs.apps.tomato-monitor</groupId>
 <artifactId>parent</artifactId>
 <packaging>pom</packaging>
 <version>4.2.0</version>
 
 <name>Tomato Monitor (Parent)</name>
 <description>Android library for implementing the action bar design pattern using the backported sources of Ice Cream Sandwich.</description>
-<url>http://actionbarsherlock.com</url>
-<inceptionYear>2011</inceptionYear>
+<url>http://droidlabs.net</url>
+<inceptionYear>2013</inceptionYear>
 
 <modules>
-<module>TomatoMonitor</module>
+<module>android</module>
 </modules>
 
 
@@ -141,23 +141,7 @@
 </configuration>
 </plugin>
 
-<plugin>
-<groupId>com.github.github</groupId>
-<artifactId>site-maven-plugin</artifactId>
-<version>0.5</version>
-<executions>
-<execution>
-<phase>site</phase>
-<goals>
-<goal>site</goal>
-</goals>
-</execution>
-</executions>
-<configuration>
-<message>Creating site for ${project.version}.</message>
-<outputDirectory>website</outputDirectory>
-</configuration>
-</plugin>
+
 </plugins>
 </build>
 </project>
